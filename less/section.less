@@ -1,0 +1,142 @@
+.section 
+{
+  &.search_active, &.search_more_history  
+  {
+    .sesrch-section 
+    {
+      width: 1280px;
+      max-width: 90%;
+
+      .search 
+      {
+        justify-content: flex-start;
+        width: 100%;
+
+        .search-icon 
+        {
+          margin-right: 12px;
+        }
+
+        &__cancel-icon 
+        {
+          display: block;
+        }
+
+        &__input 
+        {
+          width: calc(100% - 56px);
+        }
+
+        &__line 
+        {
+          background-color: #ffd725;
+        }
+      }
+
+      .tag 
+      {
+        display: flex;
+
+        &_tags 
+        {
+          display: none;
+        }
+      }
+    }
+
+  }
+
+  &.search_more_history 
+  {
+    .sesrch-section 
+    {
+      .tag 
+      {
+        display: none;
+        
+        &_tags 
+        {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.scroll 
+  {
+    .sesrch-section 
+    {
+      .search 
+      {
+        height: 75px;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding-left: 128px;
+        padding-right: 128px;
+        position: fixed;
+        backdrop-filter: blur(4px);
+        background-color: rgba(28, 28, 28, 0.8);
+        z-index: 3;
+  
+        &__cancel-icon 
+        {
+          display: block;
+        }
+  
+        &__input 
+        {
+          flex-grow: 1;
+        }
+  
+        &__underline 
+        {
+          background-color: #fff;
+          width: 100vw;
+          left: 0;
+        }
+      }
+
+      .tag 
+      {
+        display: none;
+      }
+    }
+
+    .result 
+    {
+      display: flex;
+    }
+    .tags-no-result 
+    {
+      display: none;
+    }
+  }
+
+  &.search_not_found 
+  {
+    .result 
+    {
+      display: none;
+    }
+    .tags-no-result 
+    {
+      display: block;
+    }
+  }
+
+  &.search_live 
+  {
+    .result 
+    {
+      display: flex;
+    }
+    .tags-no-result
+    {
+      display: none;
+    }
+  }
+}

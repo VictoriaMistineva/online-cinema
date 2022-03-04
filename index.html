@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Тинькофф Прокат</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <!-- < дополнительно > -->
+  <!-- python3 -m http.server 8000 -->
+  <!-- section.classList.add('search_live') -->
+  <!-- section.classList.add('search_more_history') 
+      section.classList.add('scroll')  
+      section.classList.add('search_not_found') -->
+
+  <!-- CSS -->
+  <!-- <link rel="stylesheet" href="css/data.css" />
+  <link rel="stylesheet" href="css/data1.css" />
+  <link rel="stylesheet" href="css/data2.css" />
+  <link rel="stylesheet" href="css/data3.css" /> -->
+
+
+  <!-- less -->
+  <!-- <link rel="stylesheet/less" type="text/css" href="less/styles1.less" /> -->
+  <link rel="stylesheet/less" type="text/css" href="less/styles.less" />
+  <link rel="stylesheet/less" type="text/css" href="less/serch.less" />
+  <link rel="stylesheet/less" type="text/css" href="less/result.less" />
+  <link rel="stylesheet/less" type="text/css" href="less/section.less" />
+  <script src="js/less.min.js"></script> 
+
+</head>
+<body>
+  <!-- лого -->
+  <header>
+    <img src="img/logo-tp.svg" alt="logo" class="logo-img">
+  </header>
+
+  <section class="section" id="section">
+    <div class="sesrch-section">
+      <div>
+        <div class="search">
+          <img class= "search_img" src="img/search.svg" alt="search-img">
+          <input class="search__input" type="text" placeholder="Поиск фильмов по жанрам и актерам">
+          <div class="search__cancel-icon"></div>
+          <div class="search__line"></div>
+        </div>
+      </div>
+      
+      <!-- теги -->
+      <div>
+        <div class="tag">
+          <div class="tag__list">
+            Дюна
+          </div>
+          <div class="tag__list">
+            Шан-Чи и легенда десяти колец 
+          </div>
+          <div class="tag__list">
+            Веном 2
+          </div>
+        </div>
+      </div>
+      
+      <!-- много тегов -->
+      <div>
+        <div class="tag tag_tags">
+          <div class="tag__list">
+            Дюна
+          </div>
+          <div class="tag__list">
+            Шан-Чи и легенда десяти колец 
+          </div>
+          <div class="tag__list">
+            Веном 2
+          </div>
+          <div class="tag__list">
+            Главный герой
+          </div>
+          <div class="tag__list">
+            Злое
+          </div>
+          <div class="tag__list">
+            Её заветное желание
+          </div>
+        </div>
+      </div> 
+    </div>
+    <!-- конец поиска -->
+
+    <div class="tags-no-result">
+      <div class="result__txt">
+        Мы не поняли о чем речь ¯\_(ツ)_/¯
+      </div>
+    </div>
+
+    <div class="result">
+
+      <div class="result__txt">
+        <b>найдено 25 фильмов</b>
+      </div>
+      <div class="result__film">
+
+        <!-- фильм Дюна -->
+        <div class="result__film__films result__film__films_img">
+          <div>
+            <div>&#128076; 10.0</div>
+            <div>Дюна</div>
+            <div>
+              <div>фантастика</div>
+              <div>2021</div>
+            </div>
+          </div>
+          <img src="img/dd.jpeg" class="poster">
+        </div>
+
+        <!-- фильм Шан-Чи и легенда десяти колец-->
+        <div class="result__film__films result__film__films_img"">
+          <div>
+            <div>	&#128077; 7.3</div>
+            <div>Шан-Чи и легенда десяти колец</div>
+            <div>
+              <div>фантастика</div>
+              <div>2021</div>
+            </div>
+          </div>
+          <img src="img/shan.jpeg".png" class="poster">
+        </div>
+
+        <!-- фильм злое -->
+        <div class="result__film__films result__film__films_img">
+          <div>
+            <div>&#128077; 6.3</div>
+            <div>Злое</div>
+            <div>
+              <div>ужасы</div>
+              <div>2021</div>
+            </div>
+          </div>
+          <img src="img/zloe.jpeg" class="poster">
+        </div>
+
+        <!-- без изображения -->
+        <div class="result__film__films">
+          <div>
+            <div></div>
+            <div>Лес призраков: Сатор</div>
+            <div><div>ужасы</div><div>2019</div></div>
+          </div> 
+        </div>
+
+        <!-- пустые -->
+        <div class="result__film__films">
+          <div>
+            <div></div>
+            <div class="empty_line"></div>
+            <div class="line-small"></div>
+          </div>
+        </div>
+
+        <div class="result__film__films">
+          <div>
+            <div></div>
+            <div class="empty_line"></div>
+            <div class="line-small"></div>
+          </div>
+        </div>
+
+        <div class="result__film__films">
+          <div>
+            <div></div>
+            <div class="empty_line"></div>
+            <div class="line-small"></div>
+          </div>
+        </div>
+
+        <div class="result__film__films">
+          <div>
+            <div></div>
+            <div class="empty_line"></div>
+            <div class="line-small"></div>
+          </div>
+        </div>
+
+        <div class="result__film__films">
+          <div>
+            <div></div>
+            <div class="empty_line"></div>
+            <div class="line-small"></div>
+          </div>
+        </div>
+
+        <div class="result__film__films">
+          <div>
+            <div></div>
+            <div class="empty_line"></div>
+            <div class="line-small"></div>
+          </div>
+        </div>
+
+        <div class="result__film__films">
+          <div>
+            <div></div>
+            <div class="empty_line"></div>
+            <div class="line-small"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- подвал -->
+  <footer>
+    <div class="footer">
+      ©2021 Тинькофф Прокат 
+    </div> 
+  </footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+﻿.section.search_active .sesrch-section, .section.search_more_history .sesrch-section {
+	 width: 1280px;
+	 max-width: 90%;
+}
+ .section.search_active .sesrch-section .search, .section.search_more_history .sesrch-section .search {
+	 justify-content: flex-start;
+	 width: 100%;
+}
+ .section.search_active .sesrch-section .search .search-icon, .section.search_more_history .sesrch-section .search .search-icon {
+	 margin-right: 12px;
+}
+ .section.search_active .sesrch-section .search__cancel-icon, .section.search_more_history .sesrch-section .search__cancel-icon {
+	 display: block;
+}
+ .section.search_active .sesrch-section .search__input, .section.search_more_history .sesrch-section .search__input {
+	 width: calc(44%);
+}
+ .section.search_active .sesrch-section .search__line, .section.search_more_history .sesrch-section .search__line {
+	 background-color: #ffd725;
+}
+ .section.search_active .sesrch-section .tag, .section.search_more_history .sesrch-section .tag {
+	 display: flex;
+}
+ .section.search_active .sesrch-section .tag_tags, .section.search_more_history .sesrch-section .tag_tags {
+	 display: none;
+}
+ .section.search_more_history .sesrch-section .tag {
+	 display: none;
+}
+ .section.search_more_history .sesrch-section .tag_tags {
+	 display: flex;
+}
+ .section.scroll .sesrch-section .search {
+	 height: 75px;
+	 top: 0;
+	 left: 0;
+	 width: 100vw;
+	 justify-content: space-between;
+	 align-items: center;
+	 margin: 0;
+	 padding-left: 128px;
+	 padding-right: 128px;
+	 position: fixed;
+	 backdrop-filter: blur(4px);
+	 background-color: rgba(28,28,28,0.8);
+	 z-index: 3;
+}
+ .section.scroll .sesrch-section .search__cancel-icon {
+	 display: block;
+}
+ .section.scroll .sesrch-section .search__input {
+	 flex-grow: 1;
+}
+ .section.scroll .sesrch-section .search__underline {
+	 background-color: #fff;
+	 width: 100vw;
+	 left: 0;
+}
+ .section.scroll .sesrch-section .tag {
+	 display: none;
+}
+ .section.scroll .result {
+	 display: flex;
+}
+ .section.scroll .tags-no-result {
+	 display: none;
+}
+ .section.search_not_found .result {
+	 display: none;
+}
+ .section.search_not_found .tags-no-result {
+	 display: block;
+}
+ .section.search_live .result {
+	 display: flex;
+}
+ .section.search_live .tags-no-result {
+	 display: none;
+}
+ 
